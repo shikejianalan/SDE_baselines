@@ -1,0 +1,9 @@
+ply
+format binary_little_endian 1.0
+element vertex 1
+comment vertices
+property float x
+property float y
+property float z
+end_header
+^š¿ÎÐˆ>L‘¿

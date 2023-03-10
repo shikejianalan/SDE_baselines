@@ -1,0 +1,30 @@
+~/thea/TheaDepsUnix/Source/TheaPrefix/bin/Thea/Browse3D -p 3 /home/wuruihai/where2actCode/VIS_affordance/2021052562_pushDoor/afd_EVAL0p5_th0p6_83_34.970646
+.pts -f /home/wuruihai/where2actCode/VIS_affordance/2021052562_pushDoor/afd_EVAL0p5_th0p6_83_34.970646
+.label --bg FFFFFF --fancy-points
+~/thea/TheaDepsUnix/Source/TheaPrefix/bin/Thea/Browse3D -p 3 /home/wuruihai/where2actCode/VIS_affordance/2021052562_pushDoor_novel/afd_NOVEL_EVAL2_th0p6_49_32.277126
+.pts -f /home/wuruihai/where2actCode/VIS_affordance/2021052562_pushDoor_novel/afd_NOVEL_EVAL2_th0p6_49_32.277126
+.label --bg FFFFFF --fancy-points
+~/thea/TheaDepsUnix/Source/TheaPrefix/bin/Thea/Browse3D -p 3 /home/wuruihai/where2actCode/VIS_affordance/2021052963_pullDoor/afd_EVAL1p5_197_-22.39374
+.pts -f /home/wuruihai/where2actCode/VIS_affordance/2021052963_pullDoor/afd_EVAL1p5_197_-22.39374
+.label --bg FFFFFF --fancy-points
+~/thea/TheaDepsUnix/Source/TheaPrefix/bin/Thea/Browse3D -p 3 /home/wuruihai/where2actCode/VIS_affordance/2021052963_pullDoor_novel/afd_NOVEL_EVAL0p5_155_-17.701788
+.pts -f /home/wuruihai/where2actCode/VIS_affordance/2021052963_pullDoor_novel/afd_NOVEL_EVAL0p5_155_-17.701788
+.label --bg FFFFFF --fancy-points
+~/thea/TheaDepsUnix/Source/TheaPrefix/bin/Thea/Browse3D -p 3 /home/wuruihai/where2actCode/VIS_affordance/52763_pushDrawer/afd_EVAL0p5_85_8.244105
+.pts -f /home/wuruihai/where2actCode/VIS_affordance/52763_pushDrawer/afd_EVAL0p5_85_8.244105
+.label --bg FFFFFF --fancy-points
+~/thea/TheaDepsUnix/Source/TheaPrefix/bin/Thea/Browse3D -p 3 /home/wuruihai/where2actCode/VIS_affordance/52763_pushDrawer_novel/afd_NOVEL_EVAL0_24_14.849847
+.pts -f /home/wuruihai/where2actCode/VIS_affordance/52763_pushDrawer_novel/afd_NOVEL_EVAL0_24_14.849847
+.label --bg FFFFFF --fancy-points
+~/thea/TheaDepsUnix/Source/TheaPrefix/bin/Thea/Browse3D -p 3 /home/wuruihai/where2actCode/VIS_affordance/61263_pullDrawer/afd_EVAL2_66_-23.47935
+.pts -f /home/wuruihai/where2actCode/VIS_affordance/61263_pullDrawer/afd_EVAL2_66_-23.47935
+.label --bg FFFFFF --fancy-points
+~/thea/TheaDepsUnix/Source/TheaPrefix/bin/Thea/Browse3D -p 3 /home/wuruihai/where2actCode/VIS_affordance/61263_pullDrawer_novel/afd_NOVEL_EVAL0p5_9_-22.502916
+.pts -f /home/wuruihai/where2actCode/VIS_affordance/61263_pullDrawer_novel/afd_NOVEL_EVAL0p5_9_-22.502916
+.label --bg FFFFFF --fancy-points
+~/thea/TheaDepsUnix/Source/TheaPrefix/bin/Thea/Browse3D -p 3 
+.pts -f 
+.label --bg FFFFFF --fancy-points
+~/thea/TheaDepsUnix/Source/TheaPrefix/bin/Thea/Browse3D -p 3 
+.pts -f 
+.label --bg FFFFFF --fancy-points

@@ -1,0 +1,32 @@
+CUDA_VISIBLE_DEVICES=0 xvfb-run -a python td3_eval_actor_attachPoint_changed_ctpt_partPose_allShape_0305.py \
+    --shape_id 48855  \
+    --cnt_id 0  \
+    --primact_type pushing  \
+    --out_dir ../logs/exp-model_3d_task_actor_dir_RL_raw-pushing-None-%d \
+    --trial_id 52502  \
+    --eval_epoch 100   \
+    --pos_range 0.25  \
+    --guidance_reward 300.0 \
+    --success_reward 500    \
+    --threshold 0.6 \
+    --task_lower 10.0 \
+    --task_upper 70.0 \
+    --with_step 0 \
+    --state_initial_position \
+    --state_joint_origins \
+    --state_initial_dir \
+    --use_random_up \
+    --up_norm_thresh -0.7 \
+    --early_stop \
+    --state_axes_all \
+    --out_gif 1 \
+    --out_png 0 \
+    --wp_rot            \
+    --wp_xyz 0          \
+    --num_step 4        \
+    --coordinate_system world \
+    --sample_type fps  \
+    --no_gui \
+    --sample_sameTask_diffProposal  \
+    --num_offset 400        \
+

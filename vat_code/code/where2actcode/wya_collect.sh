@@ -1,0 +1,49 @@
+CUDA_VISIBLE_DEVICES=0 xvfb-run -a python td3_eval_actor_simple.py \
+    --shape_id 48855  \
+    --cnt_id 0  \
+    --primact_type pulling  \
+    --out_dir ../logs/exp-model_3d_task_actor_dir_RL_raw-pushing-None-%d \
+    --trial_id 52701  \
+    --eval_epoch 150   \
+    --affordance_dir /home/wuruihai/where2actCode/logs/exp-model_3d_task_score_topk-pushing-None-2021052763/ckpts/%d-network.pth \
+    --affordance_epoch 80 \
+    --critic_dir  /media/wuruihai/sixt/where2act/logs/exp-model_3d_task_critic_updir_RL-pushing-None-52701 \
+    --critic_epoch best \
+    --val_data_dir /media/wuruihai/sixt/where2act/data/gt_data-fixcam-Type-single_cabinet_train_data-pushing0p05_TD3_sample_concat/allShape_StorageFurniture_2021051350/EVAL1 \
+    --val_data_dir2 /media/wuruihai/sixt/where2act/data/gt_data-multiviews-allCat-pushing0p05_TD3_curiosityDriven/allShape_52501/EVAL0p5 \
+    --val_data_dir3 /media/wuruihai/sixt/where2act/data/gt_data-multiviews-allCat-pushing0p05_TD3_curiosityDriven/allShape_52501/EVAL1 \
+    --val_data_dir4 /media/wuruihai/sixt/where2act/data/gt_data-multiviews-allCat-pushing0p05_TD3_curiosityDriven/allShape_52501/EVAL1p5 \
+    --val_data_dir5 /media/wuruihai/sixt/where2act/data/gt_data-multiviews-allCat-pushing0p05_TD3_curiosityDriven/allShape_52501/EVAL2 \
+    --val_data_dir6 /media/wuruihai/sixt/where2act/data/gt_data-multiviews-allCat-pushing0p05_TD3_curiosityDriven/allShape_52501/EVAL2p5 \
+    --val_data_dir7 /media/wuruihai/sixt/where2act/data/gt_data-multiviews-allCat-pushing0p05_TD3_curiosityDriven/allShape_52501/EVAL3 \
+    --pos_range 0.25  \
+    --guidance_reward 300.0 \
+    --success_reward 500    \
+    --threshold 0.6 \
+    --task_lower 10.0 \
+    --task_upper 70.0 \
+    --with_step 0 \
+    --state_initial_position \
+    --state_joint_origins \
+    --state_initial_dir \
+    --use_random_up \
+    --up_norm_thresh -0.7 \
+    --early_stop \
+    --state_axes_all \
+    --out_gif 1 \
+    --out_png 0 \
+    --wp_rot            \
+    --wp_xyz 0          \
+    --num_step 4        \
+    --coordinate_system world \
+    --sample_type fps  \
+    --val_num_data_uplimit 50 \
+    --angle_system 0   \
+    --drawer 1  \
+    --slider 0  \
+    --sameTask_diffProposal \
+    --saved_json_dir /media/wuruihai/sixt/where2act/logs/exp-model_3d_task_actor_dir_RL_raw-pushing-None-52701/save_dir/result_0_345.json  \
+    --num_offset 5  \
+    --save_dir sampleSucc_pushdrawer_0_345 \
+    --no_gui \
+
